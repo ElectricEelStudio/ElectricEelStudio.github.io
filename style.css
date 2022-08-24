@@ -6,8 +6,7 @@
 }
 
 body {
-	/*font-family: 'Source Code Pro', monospace;*/
-	font-family: Iosevka, 'Victor Mono', monospace;
+	font-family: Iosevka, 'Victor Mono', 'Source Code Pro', monospace;
 	background-color: black;
 }
 
@@ -18,7 +17,7 @@ a {
 }
 
 li {
-	list-style-type: square;
+	list-style-type: none;
 }
 
 .navBar {
