@@ -1,0 +1,47 @@
+/*    MAIN STYLE    */
+
+* {
+	color: #00ff00;
+	border-color: #ff0000;
+}
+
+body {
+	/*font-family: 'Source Code Pro', monospace;*/
+	font-family: Iosevka, 'Victor Mono', monospace;
+	background-color: black;
+}
+
+
+a {
+	text-decoration-style: initial;
+	padding-top: 5px;
+}
+
+li {
+	list-style-type: square;
+}
+
+.navBar {
+  background-color: #111;
+  overflow: hidden;
+}
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #efefef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navBar a:hover {
+  background-color: #00dd00;
+  color: black;
+}
+
+.navBar a.active {
+  background-color: #006600;
+  color: white;
+}
